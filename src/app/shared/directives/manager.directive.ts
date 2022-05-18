@@ -9,7 +9,7 @@ export class ManagerDirective {
     private el: ElementRef,
     private renderer: Renderer2
   ) { }
-@HostListener('mouseenter') onMouseEnter(): void {
+  @HostListener('mouseenter') onMouseEnter(): void {
     this.highlight(this.highlightColor || 'gold');
   }
 

@@ -18,9 +18,9 @@
                     <td>{{ employee.id }}</td>
                     <td>{{ employee.firstName }}</td>
                     <td>{{ employee.lastName }}</td>
-                    <td>{{ employee.dateOfBirth }}</td>
+                    <td>{{ employee.dateOfBirth | date: 'shortDate'}}</td>
                     <td appManager="yellow">{{ employee.position | positionUppercased}}</td>
-                    <td [ngClass]="{'high-salary': employee.salary > 3500}">{{ employee.salary }}</td>
+                    <td [ngClass]="{'high-salary': employee.salary > 3500}">{{ employee.salary | currency }}</td>
                 </tr>
             </tbody>
         </table>
