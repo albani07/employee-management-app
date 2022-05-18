@@ -41,15 +41,15 @@ export const EMPLOYEES: Employee[] = [
     position: "Officer",
     salary: 5500
   },
-   {
+  {
     id: 6,
     firstName: "FirstName-SixthEmployee",
     lastName: "LastName-SixthEmployee",
     dateOfBirth: "1979-05-07",
-    position: "Doctor",
+    position: "Manager",
     salary: 2600
   },
-   {
+  {
     id: 7,
     firstName: "FirstName-SeventhEmployee",
     lastName: "LastName-SeventhEmployee",
@@ -57,7 +57,7 @@ export const EMPLOYEES: Employee[] = [
     position: "Accounter",
     salary: 6300
   },
-   {
+  {
     id: 8,
     firstName: "FirstName-EightthEmployee",
     lastName: "LastName-EightthEmployee",
@@ -65,7 +65,7 @@ export const EMPLOYEES: Employee[] = [
     position: "Driver",
     salary: 3400
   },
-   {
+  {
     id: 9,
     firstName: "FirstName-NinthEmployee",
     lastName: "LastName-NinthEmployee",
@@ -73,7 +73,7 @@ export const EMPLOYEES: Employee[] = [
     position: "Teacher",
     salary: 6500
   },
-   {
+  {
     id: 10,
     firstName: "FirstName-TenthEmployee",
     lastName: "LastName-TenthEmployee",
